@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualLogin.Serilog.Sinks.Dingtalk.Robot", "VisualLogin.Serilog.Sinks.Dingtalk.Robot\VisualLogin.Serilog.Sinks.Dingtalk.Robot.csproj", "{BFFAB0A3-E643-410F-8CBE-7CDD41A5A1F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{22E07D5A-A642-4747-A86F-4DE893F8C957}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFFAB0A3-E643-410F-8CBE-7CDD41A5A1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFFAB0A3-E643-410F-8CBE-7CDD41A5A1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFFAB0A3-E643-410F-8CBE-7CDD41A5A1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFFAB0A3-E643-410F-8CBE-7CDD41A5A1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E07D5A-A642-4747-A86F-4DE893F8C957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E07D5A-A642-4747-A86F-4DE893F8C957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E07D5A-A642-4747-A86F-4DE893F8C957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E07D5A-A642-4747-A86F-4DE893F8C957}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48CDC409-7122-44B4-92AC-E7FF14E9F40E}
+	EndGlobalSection
+EndGlobal
