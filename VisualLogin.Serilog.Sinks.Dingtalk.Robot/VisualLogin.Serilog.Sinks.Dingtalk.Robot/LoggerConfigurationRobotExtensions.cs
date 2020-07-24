@@ -13,9 +13,9 @@ namespace Serilog
     /// <summary>
     /// Adds the WriteTo.Email() extension method to <see cref="LoggerConfiguration"/>.
     /// </summary>
-    public static class LoggerConfigurationEmailExtensions
+    public static class LoggerConfigurationRobotExtensions
     {
-        const string DefaultOutputTemplate = "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level}] {Message}{NewLine}{Exception}";
+        const string DefaultOutputTemplate = "[{Level}] {Timestamp:yyyy-MM-dd HH:mm:ss} {SourceContext} {Message}{NewLine}{Exception}";
         const int DefaultBatchPostingLimit = 100;
         static readonly TimeSpan DefaultPeriod = TimeSpan.FromSeconds(3);
 
@@ -40,7 +40,7 @@ namespace Serilog
         /// fromEmail
         /// or
         /// toEmail</exception>
-        public static LoggerConfiguration Email(
+        public static LoggerConfiguration Robot(
             this LoggerSinkConfiguration loggerConfiguration,
             string token,
             string secret,
